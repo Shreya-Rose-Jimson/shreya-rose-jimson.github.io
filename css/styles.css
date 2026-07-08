@@ -1,0 +1,57 @@
+body {
+    background-color: #fafafa;
+    color: #0f0f0f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Swiss Design relies on strong lines and grids */
+.swiss-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+@media (min-width: 768px) {
+    .swiss-grid {
+        grid-template-columns: 3fr 9fr;
+        gap: 4rem;
+    }
+}
+
+.border-t-thick { border-top: 2px solid #0f0f0f; }
+.border-b-thick { border-bottom: 2px solid #0f0f0f; }
+
+/* Animation Canvas */
+#nanoCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.15; /* Subtle background */
+    pointer-events: none;
+}
+
+.content-layer {
+    position: relative;
+    z-index: 10;
+}
+
+/* Minimal Hover Effects */
+.hover-invert {
+    transition: background-color 0.3s, color 0.3s;
+}
+.hover-invert:hover {
+    background-color: #0f0f0f;
+    color: #fafafa;
+}
+
+/* Markdown prose overrides (if any specific styling is needed beyond tailwind typography) */
+.prose a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.prose a:hover {
+    color: #555;
+}

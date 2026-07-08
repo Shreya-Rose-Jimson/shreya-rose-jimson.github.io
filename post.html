@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post | Shreya Rose Jimson</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Typography Plugin (for formatting markdown) -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    
+    <!-- Google Fonts (Modern Brutalist Aesthetic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+                    },
+                    colors: {
+                        black: '#0a0a0a',
+                        white: '#fafafa',
+                        gray: {
+                            300: '#d1d1d1',
+                            500: '#737373',
+                            900: '#171717',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Marked.js for parsing markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+<body class="font-sans antialiased bg-[#fafafa] text-black dark:bg-[#0a0a0a] dark:text-white transition-colors duration-300">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 dark:bg-black/90 backdrop-blur-md z-50 border-b border-black/10 dark:border-white/10 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center text-sm font-semibold tracking-wide uppercase">
+            <a href="index.html#home" class="font-display font-bold text-lg hover:text-gray-500 transition-colors">SRJ</a>
+            <div class="hidden md:flex gap-8 items-center">
+                <a href="index.html#about" class="hover:text-gray-500 transition-colors">About</a>
+                <a href="index.html#work" class="hover:text-gray-500 transition-colors">Work</a>
+                <a href="blog.html" class="hover:text-gray-500 transition-colors">Journal</a>
+                <a href="index.html#contact" class="hover:text-gray-500 transition-colors">Contact</a>
+                
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors ml-4" aria-label="Toggle Dark Mode">
+                    <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden block p-2">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden border-t border-black/10 dark:border-white/10 bg-white dark:bg-black md:hidden transition-colors duration-300">
+            <div class="flex flex-col px-6 py-4 space-y-4 text-sm font-semibold uppercase">
+                <a href="index.html#about">About</a>
+                <a href="index.html#work">Work</a>
+                <a href="blog.html">Journal</a>
+                <a href="index.html#contact">Contact</a>
+                <button id="theme-toggle-mobile" class="text-left hover:text-gray-500" aria-label="Toggle Dark Mode">Toggle Theme</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Post Container -->
+    <section class="pt-32 pb-24 min-h-screen">
+        <div class="max-w-3xl mx-auto px-6">
+            <a href="blog.html" class="inline-block mb-8 text-sm font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors">
+                &larr; Back to Journal
+            </a>
+            
+            <!-- Where marked.js will inject the HTML -->
+            <article id="post-content" class="prose prose-lg dark:prose-invert prose-headings:font-display prose-headings:font-bold prose-headings:tracking-tight prose-a:text-black dark:prose-a:text-white max-w-none transition-colors duration-300">
+                <div class="animate-pulse flex space-x-4">
+                  <div class="flex-1 space-y-6 py-1">
+                    <div class="h-8 bg-gray-300 dark:bg-gray-700 rounded w-3/4"></div>
+                    <div class="space-y-3">
+                      <div class="h-4 bg-gray-300 dark:bg-gray-700 rounded"></div>
+                      <div class="h-4 bg-gray-300 dark:bg-gray-700 rounded w-5/6"></div>
+                      <div class="h-4 bg-gray-300 dark:bg-gray-700 rounded w-4/6"></div>
+                    </div>
+                  </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section / Footer -->
+    <section class="py-12 bg-black text-white dark:bg-black transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-sm text-gray-500 uppercase tracking-widest font-mono">
+                &copy; <span id="year"></span> Shreya Rose Jimson. Built with precision.
+            </p>
+        </div>
+    </section>
+
+    <!-- External JS -->
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileThemeToggle = document.getElementById('theme-toggle-mobile');
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            if (mobileThemeToggle && themeToggleBtn) {
+                mobileThemeToggle.addEventListener('click', () => {
+                    themeToggleBtn.click();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nanoscale-charge-dynamics",
+    "title": "Understanding Nanoscale Charge Carrier Dynamics",
+    "description": "A deep dive into how electrons behave at the atomic level.",
+    "date": "2024-03-15",
+    "topic": "Semiconductor Device Physics",
+    "file": "nanoscale-charge-dynamics.md"
+  },
+  {
+    "id": "ml-for-device-modeling",
+    "title": "Accelerating Device Modeling with Machine Learning",
+    "description": "Using neural networks to predict IV characteristics in sub-10nm nodes.",
+    "date": "2024-05-10",
+    "topic": "Machine Learning",
+    "file": "ml-for-device-modeling.md"
+  },
+  {
+    "id": "campus-leadership",
+    "title": "Leading the Tech Society",
+    "description": "Lessons learned from managing a team of 50+ students for our annual symposium.",
+    "date": "2023-11-20",
+    "topic": "Campus Involvement",
+    "file": "campus-leadership.md"
+  }
+]
