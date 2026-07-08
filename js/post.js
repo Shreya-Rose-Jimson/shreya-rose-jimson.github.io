@@ -31,7 +31,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const mdResponse = await fetch(`./content/blog/${postMeta.file}`);
         if (!mdResponse.ok) throw new Error('Could not load markdown file');
         
-        const mdText = await mdResponse.text();
+        let mdText = await mdResponse.text();
+
+        // Fix relative asset paths in the markdown text so they load correctly from the site root
+        mdText = mdText.replace(/!\[([^\]]*)\]\(\.\.\/assets\//g, '![$1](./content/assets/');
 
         // Parse markdown to HTML using marked.js
         // We assume marked is loaded via CDN in post.html
