@@ -1,5 +1,13 @@
 [
   {
+    "id": "tedx-2024",
+    "title": "TEDxPESU 2024: Mosaics of Modernity — A Journey in Event Production",
+    "description": "Reflections on leading event production for TEDxPESU 2024 and the incredible speakers who made it possible.",
+    "date": "2025-03-11",
+    "topic": "Campus Involvement",
+    "file": "tedx-2024.md"
+  },
+  {
     "id": "sce-blog",
     "title": "Second Order Effects in MOSFETS: Short-Channel Effects",
     "description": "An deep dive into short-channel effects including DIBL, Vth roll-off, and hot carriers.",
@@ -30,13 +38,5 @@
     "date": "2024-05-10",
     "topic": "Machine Learning",
     "file": "ml-for-device-modeling.md"
-  },
-  {
-    "id": "campus-leadership",
-    "title": "Leading the Tech Society",
-    "description": "Lessons learned from managing a team of 50+ students for our annual symposium.",
-    "date": "2023-11-20",
-    "topic": "Campus Involvement",
-    "file": "campus-leadership.md"
   }
 ]
