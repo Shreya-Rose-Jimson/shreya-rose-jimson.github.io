@@ -1,5 +1,13 @@
 [
   {
+    "id": "tedx-2023",
+    "title": "Behind the Scenes of TEDx PESU 2023: A Volunteer’s Journey",
+    "description": "An inside look at organizing TEDx PESU 2023, lessons in event production, and navigating the challenges of a large-scale event.",
+    "date": "2023-11-04",
+    "topic": "Campus Involvement",
+    "file": "tedx-2023.md"
+  },
+  {
     "id": "transformers-blog",
     "title": "Attention is all you need",
     "description": "A deep dive into the architecture of Transformers, attention mechanisms, and sequence-to-sequence learning.",
