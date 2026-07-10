@@ -45,7 +45,8 @@
     "description": "Reflections on leading event production for TEDxPESU 2024 and the incredible speakers who made it possible.",
     "date": "2025-03-11",
     "topic": "Campus Involvement",
-    "file": "tedx-2024.md"
+    "file": "tedx-2024.md",
+    "image": "./content/assets/tedx_2024/image 6.png"
   },
   {
     "id": "sce-blog",

@@ -69,13 +69,20 @@ document.addEventListener('DOMContentLoaded', async () => {
                 `;
                 
                 topicPosts.forEach(post => {
+                    let imageHtml = post.image 
+                        ? `<img src="${post.image}" alt="${post.title}" class="w-16 h-16 sm:w-20 sm:h-20 object-cover rounded-md flex-shrink-0 mr-4" />` 
+                        : '';
+                        
                     html += `
                         <article onclick="window.location.href='post.html?id=${post.id}'" class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors cursor-pointer border border-transparent rounded-lg">
-                            <div>
-                                <h4 class="font-display text-lg font-bold">${post.title}</h4>
-                                <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">${post.description}</p>
+                            <div class="flex items-center w-full sm:w-auto mb-2 sm:mb-0">
+                                ${imageHtml}
+                                <div>
+                                    <h4 class="font-display text-lg font-bold">${post.title}</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">${post.description}</p>
+                                </div>
                             </div>
-                            <span class="text-xs font-mono uppercase mt-2 sm:mt-0 text-gray-500 min-w-[100px] text-right">${post.date}</span>
+                            <span class="text-xs font-mono uppercase mt-2 sm:mt-0 text-gray-500 min-w-[100px] text-left sm:text-right flex-shrink-0">${post.date}</span>
                         </article>
                     `;
                 });
