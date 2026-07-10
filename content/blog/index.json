@@ -1,5 +1,13 @@
 [
   {
+    "id": "silicon-unplugged",
+    "title": "Inside Silicon Unplugged: Conversations That Shaped Our Perspective",
+    "description": "Key takeaways from the Silicon Unplugged AMA session with industry veterans on semiconductors, AI hardware, and engineering careers.",
+    "date": "2026-01-22",
+    "topic": "Campus Involvement",
+    "file": "silicon-unplugged.md"
+  },
+  {
     "id": "silicon-4thsem",
     "title": "VLSI DAY 2025 — Exploring the Future Beyond AI",
     "description": "An inside look into VLSI DAY 2025, featuring industry pioneers discussing the future of semiconductors beyond AI.",
