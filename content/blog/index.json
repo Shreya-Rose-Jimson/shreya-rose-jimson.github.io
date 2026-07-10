@@ -3,7 +3,7 @@
     "id": "body-effect-blog",
     "title": "Second Order Effects in MOSFETS: Body Effect",
     "description": "Understanding the body effect and how it alters transistor threshold voltage.",
-    "date": "2026-07-10",
+    "date": "2026-06-03",
     "topic": "Semiconductor Device Physics",
     "file": "body-effect-blog.md"
   },
@@ -11,7 +11,7 @@
     "id": "clm-blog",
     "title": "Second Order Effects in MOSFETS: Channel Length Modulation",
     "description": "An intuitive explanation of channel length modulation in MOSFETs.",
-    "date": "2026-07-10",
+    "date": "2026-06-03",
     "topic": "Semiconductor Device Physics",
     "file": "clm-blog.md"
   },
