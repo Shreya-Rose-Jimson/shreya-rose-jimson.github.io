@@ -22,13 +22,5 @@
     "date": "2023-11-20",
     "topic": "Campus Involvement",
     "file": "campus-leadership.md"
-  },
-  {
-    "id": "second-order-effects",
-    "title": "Understanding Second-Order Effects in MOSFETs",
-    "description": "The impact of channel-length modulation on MOSFET scaling in FinFET architectures.",
-    "date": "2026-07-08",
-    "topic": "Semiconductor Device Physics",
-    "file": "second-order-effects.md"
   }
 ]
