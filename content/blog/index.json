@@ -5,7 +5,8 @@
     "description": "An inside look at organizing TEDx PESU 2023, lessons in event production, and navigating the challenges of a large-scale event.",
     "date": "2023-11-04",
     "topic": "Campus Involvement",
-    "file": "tedx-2023.md"
+    "file": "tedx-2023.md",
+    "image": "./content/assets/tedx_2023/image.png"
   },
   {
     "id": "transformers-blog",
@@ -37,7 +38,8 @@
     "description": "An inside look into VLSI DAY 2025, featuring industry pioneers discussing the future of semiconductors beyond AI.",
     "date": "2025-03-24",
     "topic": "Campus Involvement",
-    "file": "silicon-4thsem.md"
+    "file": "silicon-4thsem.md",
+    "image": "./content/assets/silicon_4thsem/image.png"
   },
   {
     "id": "tedx-2024",
