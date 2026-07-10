@@ -1,5 +1,13 @@
 [
   {
+    "id": "clm-blog",
+    "title": "Second Order Effects in MOSFETS: Channel Length Modulation",
+    "description": "An intuitive explanation of channel length modulation in MOSFETs.",
+    "date": "2026-07-10",
+    "topic": "Semiconductor Device Physics",
+    "file": "clm-blog.md"
+  },
+  {
     "id": "nanoscale-charge-dynamics",
     "title": "Understanding Nanoscale Charge Carrier Dynamics",
     "description": "A deep dive into how electrons behave at the atomic level.",
