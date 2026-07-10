@@ -1,5 +1,13 @@
 [
   {
+    "id": "sce-blog",
+    "title": "Second Order Effects in MOSFETS: Short-Channel Effects",
+    "description": "An deep dive into short-channel effects including DIBL, Vth roll-off, and hot carriers.",
+    "date": "2026-06-05",
+    "topic": "Semiconductor Device Physics",
+    "file": "sce-blog.md"
+  },
+  {
     "id": "body-effect-blog",
     "title": "Second Order Effects in MOSFETS: Body Effect",
     "description": "Understanding the body effect and how it alters transistor threshold voltage.",
