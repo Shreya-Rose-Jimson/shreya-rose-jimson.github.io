@@ -1,5 +1,13 @@
 [
   {
+    "id": "transformers-blog",
+    "title": "Attention is all you need",
+    "description": "A deep dive into the architecture of Transformers, attention mechanisms, and sequence-to-sequence learning.",
+    "date": "2025-06-01",
+    "topic": "Machine Learning",
+    "file": "transformers-blog.md"
+  },
+  {
     "id": "pca-blog",
     "title": "PCA — Principal Component Analysis",
     "description": "An intuitive look into Principal Component Analysis, dimensionality reduction, and uncovering patterns in high-dimensional data.",
