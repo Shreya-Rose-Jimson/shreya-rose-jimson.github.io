@@ -1,5 +1,13 @@
 [
   {
+    "id": "pca-blog",
+    "title": "PCA — Principal Component Analysis",
+    "description": "An intuitive look into Principal Component Analysis, dimensionality reduction, and uncovering patterns in high-dimensional data.",
+    "date": "2025-08-15",
+    "topic": "Machine Learning",
+    "file": "pca-blog.md"
+  },
+  {
     "id": "silicon-unplugged",
     "title": "Inside Silicon Unplugged: Conversations That Shaped Our Perspective",
     "description": "Key takeaways from the Silicon Unplugged AMA session with industry veterans on semiconductors, AI hardware, and engineering careers.",
@@ -46,13 +54,5 @@
     "date": "2026-06-03",
     "topic": "Semiconductor Device Physics",
     "file": "clm-blog.md"
-  },
-  {
-    "id": "ml-for-device-modeling",
-    "title": "Accelerating Device Modeling with Machine Learning",
-    "description": "Using neural networks to predict IV characteristics in sub-10nm nodes.",
-    "date": "2024-05-10",
-    "topic": "Machine Learning",
-    "file": "ml-for-device-modeling.md"
   }
 ]
