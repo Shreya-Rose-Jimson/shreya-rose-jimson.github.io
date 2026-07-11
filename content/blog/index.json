@@ -82,5 +82,14 @@
     "topic": "Professional Development",
     "file": "q-karyashala.md",
     "image": "./content/assets/q_karyashala/image.png"
+  },
+  {
+    "id": "ieee-ceda",
+    "title": "My Experience at IEEE CEDA SMS 2026: Exploring India's Semiconductor Future",
+    "description": "Insights and key takeaways from the IEEE CEDA Semiconductor Manufacturing Symposium (SMS 2026) on India's semiconductor ecosystem and manufacturing process.",
+    "date": "2026-06-28",
+    "topic": "Professional Development",
+    "file": "ieee-ceda.md",
+    "image": "./content/assets/ieee_ceda/image.png"
   }
 ]
