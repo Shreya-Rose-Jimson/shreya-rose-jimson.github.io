@@ -40,6 +40,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         // We assume marked is loaded via CDN in post.html
         postContainer.innerHTML = marked.parse(mdText);
 
+        // Render any LaTeX math equations using MathJax
+        if (window.MathJax) {
+            MathJax.typesetPromise([postContainer]).catch((err) => console.error("MathJax error:", err));
+        }
+
     } catch (err) {
         console.error("Error loading post:", err);
         postContainer.innerHTML = '<h1>Error</h1><p>Failed to load the post. Please try again later.</p>';

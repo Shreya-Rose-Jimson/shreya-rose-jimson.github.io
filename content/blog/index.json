@@ -73,5 +73,14 @@
     "date": "2026-06-03",
     "topic": "Semiconductor Device Physics",
     "file": "clm-blog.md"
+  },
+  {
+    "id": "q-karyashala",
+    "title": "Deep Dive into Q-Karyashala 2024",
+    "description": "Quantum computing and next-generation materials are moving onto hardware chips. Key takeaways on quantum photonics, superconducting systems, cryogenic memory, and neuromorphic computing.",
+    "date": "2024-07-11",
+    "topic": "Professional Development",
+    "file": "q-karyashala.md",
+    "image": "./content/assets/q_karyashala/image.png"
   }
 ]
