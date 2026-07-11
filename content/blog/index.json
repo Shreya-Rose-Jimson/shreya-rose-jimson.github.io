@@ -91,5 +91,14 @@
     "topic": "Professional Development",
     "file": "ieee-ceda.md",
     "image": "./content/assets/ieee_ceda/image.png"
+  },
+  {
+    "id": "eess-day1",
+    "title": "Day 1 of Summer School- 2025 by Dept. of Electrical Engineering IISC",
+    "description": "Insights and key takeaways from Day 1 of the EE Summer School 2025 hosted by the Department of Electrical Engineering at the Indian Institute of Science (IISc).",
+    "date": "2025-07-10",
+    "topic": "Professional Development",
+    "file": "eess-day1.md",
+    "image": "./content/assets/eess_day1/image.png"
   }
 ]
