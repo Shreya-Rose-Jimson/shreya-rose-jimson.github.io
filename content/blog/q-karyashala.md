@@ -28,7 +28,7 @@ One of the most promising avenues for building scalable quantum computers is **P
 
 ## 2. Quantum Materials & Neuromorphic Engineering
 
-**Speaker/Project:** Prof. Pavan Nakula
+**Speaker:** Prof. Pavan Nakula
 
 The human brain uses around 20 watts of power to manage roughly $10^{11}$ neurons and $10^{15}$ synapses. In comparison, a digital emulation like SpiNNaker-1 requires 100 kW for just $10^9$ neurons. To bridge this massive efficiency gap, researchers are developing **neuromorphic materials** that inherently behave like neurons and synapses using components like **memristors**.
 
@@ -69,7 +69,7 @@ Superconducting circuits are among the frontrunners for building reliable commer
 
 ## 5. Quantum Random Number Generation (QRNG)
 
-**Speaker/Project:** Prof. Kausik Majumdar
+**Speaker:** Prof. Kausik Majumdar
 
 True randomness is vital for cryptography, secure hardware communications, digital money, and large-scale simulations.
 
