@@ -109,5 +109,14 @@
     "topic": "Professional Development",
     "file": "day2eess.md",
     "image": "./content/assets/day2eess/image.png"
+  },
+  {
+    "id": "day3eess",
+    "title": "Day 3 of Summer School- 2025 by Dept. of Electrical Engineering IISC",
+    "description": "The third day of the workshop at the Indian Institute of Science (IISc) featuring Electrical Engineering (EE) Lab visits, discussions on Life at IISc, and the Research Students Symposium Poster Session.",
+    "date": "2025-07-12",
+    "topic": "Professional Development",
+    "file": "day3eess.md",
+    "image": "./content/assets/day3eess/image.png"
   }
 ]
