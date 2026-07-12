@@ -100,5 +100,14 @@
     "topic": "Professional Development",
     "file": "eess-day1.md",
     "image": "./content/assets/eess_day1/image.png"
+  },
+  {
+    "id": "day2eess",
+    "title": "Day 2 of Summer School- 2025 by Dept. of Electrical Engineering IISC",
+    "description": "The second day of the research school was a fascinating mix of engineering, artificial intelligence, computer vision, power electronics, and conversations about what it actually means to do research.",
+    "date": "2025-07-11",
+    "topic": "Professional Development",
+    "file": "day2eess.md",
+    "image": "./content/assets/day2eess/image.png"
   }
 ]
