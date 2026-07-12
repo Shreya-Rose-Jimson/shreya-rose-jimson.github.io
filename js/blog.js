@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!blogContainer) return;
 
     try {
-        const response = await fetch('./content/blog/index.json');
+        const response = await fetch(`./content/blog/index.json?v=${new Date().getTime()}`);
         if (!response.ok) throw new Error('Could not load blog index');
         
         let posts = await response.json();
