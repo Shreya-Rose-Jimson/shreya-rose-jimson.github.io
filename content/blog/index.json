@@ -30,7 +30,8 @@
     "description": "Key takeaways from the Silicon Unplugged AMA session with industry veterans on semiconductors, AI hardware, and engineering careers.",
     "date": "2026-01-22",
     "topic": "Campus Involvement",
-    "file": "silicon-unplugged.md"
+    "file": "silicon-unplugged.md",
+    "image": "./content/assets/silicon_unplugged/image.png"
   },
   {
     "id": "silicon-4thsem",
