@@ -25,5 +25,13 @@ const notesData = [
         description: "CMOS fabrication, layout design rules",
         tags: ["VLSI", "CMOS", "FABRICATION", "LAYOUT"],
         googleDriveUrl: "https://drive.google.com/file/d/1JPJGcxmc62cdi3cQ7HxHlokMZZCYRxqM/view?usp=drive_link"
+    },
+    {
+        id: "6",
+        title: "Interconnect Effects, Bi-stable elements and Dynamic Logic Circuits",
+        subject: "Digital Very Large Scale Integration (DVLSI)",
+        description: "Parasitics, delay, power dissipation, latches",
+        tags: ["VLSI", "CMOS", "DELAY", "FLIPFLOP"],
+        googleDriveUrl: "https://drive.google.com/file/d/19lfEuX2wqhf9XHTby6YbO8HCMwZ49yRV/view?usp=sharing"
     }
 ];
