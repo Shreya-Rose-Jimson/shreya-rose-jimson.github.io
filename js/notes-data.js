@@ -33,5 +33,13 @@ const notesData = [
         description: "Parasitics, delay, power dissipation, latches",
         tags: ["VLSI", "CMOS", "DELAY", "FLIPFLOP"],
         googleDriveUrl: "https://drive.google.com/file/d/19lfEuX2wqhf9XHTby6YbO8HCMwZ49yRV/view?usp=sharing"
+    },
+    {
+        id: "7",
+        title: "Sequential MOS Logic Circuits and Memories",
+        subject: "Digital Very Large Scale Integration (DVLSI)",
+        description: "Sequencing static circuits, delay constraints, skew, SRAM, DRAM",
+        tags: ["VLSI", "CMOS", "SRAM", "DELAY"],
+        googleDriveUrl: "https://drive.google.com/file/d/1TzpuNiHJDdskT2-QmnbBnDxg0D2p7KXY/view?usp=sharing"
     }
 ];
