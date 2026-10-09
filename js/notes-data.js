@@ -17,5 +17,13 @@ const notesData = [
         description: "Introduction to inverters, resistive load inverters, CMOS inverters, BJT, BiCMOS",
         tags: ["VLSI", "CMOS", "BJT"],
         googleDriveUrl: "https://drive.google.com/file/d/1b-C395fM31foF0JUmWemUJbUx3GpqlNK/view?usp=sharing"
+    },
+    {
+        id: "5",
+        title: "Fabrication of MOSFETs, Layout Design, Switching Characteristics",
+        subject: "Digital Very Large Scale Integration (DVLSI)",
+        description: "CMOS fabrication, layout design rules",
+        tags: ["VLSI", "CMOS", "FABRICATION", "LAYOUT"],
+        googleDriveUrl: "https://drive.google.com/file/d/1JPJGcxmc62cdi3cQ7HxHlokMZZCYRxqM/view?usp=drive_link"
     }
 ];
