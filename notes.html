@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journal | Shreya Rose Jimson</title>
+    <title>Notes | Shreya Rose Jimson</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <!-- Tailwind CSS -->
@@ -78,18 +78,23 @@
         </div>
     </nav>
 
-    <!-- Blog Container -->
+    <!-- Notes Container -->
     <section class="pt-32 pb-24 min-h-screen">
         <div class="max-w-4xl mx-auto px-6">
-            <h1 class="font-display text-5xl md:text-6xl font-bold tracking-tight mb-4">Journal</h1>
-            <p class="text-xl text-gray-600 dark:text-gray-400 mb-12">Thoughts, research notes, and updates.</p>
+            <h1 class="font-display text-5xl md:text-6xl font-bold tracking-tight mb-4">Notes</h1>
+            <p class="text-xl text-gray-600 dark:text-gray-400 mb-8">A collection of handwritten notes, cheat sheets, and study materials.</p>
             
-            <div id="blog-filters" class="flex flex-wrap gap-3 mb-16 hidden">
+            <div class="mb-12">
+                <label for="notes-search" class="sr-only">Search notes</label>
+                <input type="text" id="notes-search" placeholder="Search notes by title, description, subject, or tags..." class="w-full px-4 py-3 rounded-lg border border-black/20 dark:border-white/20 bg-transparent focus:outline-none focus:border-black dark:focus:border-white transition-colors text-black dark:text-white placeholder-gray-500">
+            </div>
+
+            <div id="notes-filters" class="flex flex-wrap gap-3 mb-12 hidden">
                 <!-- Dynamic filters will be injected here -->
             </div>
             
-            <div id="blog-list-container" class="w-full space-y-16">
-                <!-- Dynamic blog categories will be injected here -->
+            <div id="notes-list-container" class="w-full space-y-16">
+                <!-- Dynamic notes categories will be injected here -->
                 <div class="animate-pulse space-y-4">
                     <div class="h-8 bg-gray-200 dark:bg-gray-800 w-1/3 rounded-sm mb-6"></div>
                     <div class="h-20 bg-gray-200 dark:bg-gray-800 w-full rounded-sm"></div>
@@ -111,7 +116,8 @@
     <!-- External JS -->
     <script src="js/theme.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/blog.js?v=3"></script>
+    <script src="js/notes-data.js"></script>
+    <script src="js/notes.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const mobileThemeToggle = document.getElementById('theme-toggle-mobile');
