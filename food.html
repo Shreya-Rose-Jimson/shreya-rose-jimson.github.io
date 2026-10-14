@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen & Bakes | Shreya Rose Jimson</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+                    },
+                    colors: {
+                        black: '#0a0a0a',
+                        white: '#fafafa',
+                        gray: {
+                            300: '#d1d1d1',
+                            500: '#737373',
+                            900: '#171717',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased bg-[#fafafa] text-black dark:bg-[#0a0a0a] dark:text-white transition-colors duration-300">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 dark:bg-black/90 backdrop-blur-md z-50 border-b border-black/10 dark:border-white/10 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center text-sm font-semibold tracking-wide uppercase">
+            <a href="index.html" class="font-display font-bold text-lg hover:text-gray-500 transition-colors">SRJ</a>
+            <div class="hidden md:flex gap-8 items-center">
+                <a href="index.html#about" class="hover:text-gray-500 transition-colors">About</a>
+                <a href="index.html#work" class="hover:text-gray-500 transition-colors">Work</a>
+                <a href="blog.html" class="hover:text-gray-500 transition-colors">Journal</a>
+                <a href="notes.html" class="hover:text-gray-500 transition-colors">Notes</a>
+                <a href="food.html" class="hover:text-gray-500 transition-colors text-black dark:text-white border-b-2 border-black dark:border-white pb-0.5">Food</a>
+                <a href="resume.pdf" class="hover:text-gray-500 transition-colors" target="_blank">Resume</a>
+                <a href="index.html#contact" class="hover:text-gray-500 transition-colors">Contact</a>
+                
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors ml-4" aria-label="Toggle Dark Mode">
+                    <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden block p-2" aria-label="Toggle Navigation Menu">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden border-t border-black/10 dark:border-white/10 bg-white dark:bg-black md:hidden transition-colors duration-300">
+            <div class="flex flex-col px-6 py-4 space-y-4 text-sm font-semibold uppercase">
+                <a href="index.html#about">About</a>
+                <a href="index.html#work">Work</a>
+                <a href="blog.html">Journal</a>
+                <a href="notes.html">Notes</a>
+                <a href="food.html" class="text-black dark:text-white font-bold">Food</a>
+                <a href="resume.pdf" target="_blank">Resume</a>
+                <a href="index.html#contact">Contact</a>
+                <button id="theme-toggle-mobile" class="text-left hover:text-gray-500" aria-label="Toggle Dark Mode">Toggle Theme</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Food Gallery Container -->
+    <section class="pt-32 pb-24 min-h-screen">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Header -->
+            <div class="max-w-3xl mb-12">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="border border-black dark:border-white rounded-full px-2 py-0.5 text-xs font-mono">GALLERY</span>
+                </div>
+                <h1 class="font-display text-5xl md:text-6xl font-bold tracking-tight mb-4">Food & Bakes</h1>
+                <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+                    A visual collection of culinary experiments — from artisan sourdough loaves and bean-to-bar chocolate to handmade pasta.
+                </p>
+            </div>
+
+
+            <!-- Photos Grid -->
+            <div id="food-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Skeleton loader -->
+                <div class="aspect-square bg-gray-200 dark:bg-gray-800 rounded-xl animate-pulse"></div>
+                <div class="aspect-square bg-gray-200 dark:bg-gray-800 rounded-xl animate-pulse"></div>
+                <div class="aspect-square bg-gray-200 dark:bg-gray-800 rounded-xl animate-pulse"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Lightbox Modal -->
+    <div id="food-lightbox" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4 sm:p-8" role="dialog" aria-modal="true" aria-label="Food photo viewer">
+        <!-- Close Button -->
+        <button id="lightbox-close" class="absolute top-6 right-6 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors focus:outline-none" aria-label="Close lightbox">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+
+        <!-- Previous Button -->
+        <button id="lightbox-prev" class="absolute left-4 sm:left-6 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors focus:outline-none" aria-label="Previous photo">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+        </button>
+
+        <!-- Next Button -->
+        <button id="lightbox-next" class="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors focus:outline-none" aria-label="Next photo">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+        </button>
+
+        <!-- Image & Caption Container -->
+        <div class="max-w-4xl max-h-[90vh] flex flex-col items-center select-none" onclick="event.stopPropagation()">
+            <div class="relative overflow-hidden rounded-xl border border-white/20 bg-black shadow-2xl max-h-[70vh]">
+                <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[70vh] object-contain block mx-auto" />
+            </div>
+            <div class="mt-4 text-center text-white max-w-2xl px-4">
+                <div class="flex items-center justify-center gap-3 mb-1.5">
+                    <span id="lightbox-date" class="font-mono text-xs uppercase tracking-wider text-gray-400"></span>
+                </div>
+                <h2 id="lightbox-title" class="font-display text-2xl font-bold tracking-tight text-white mb-1"></h2>
+                <p id="lightbox-note" class="text-sm text-gray-300 font-sans leading-relaxed"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section / Footer -->
+    <section class="py-12 border-t border-black/10 dark:border-white/10 bg-black text-white dark:bg-black transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-sm text-gray-500 uppercase tracking-widest font-mono">
+                &copy; <span id="year"></span> Shreya Rose Jimson. Built with precision.
+            </p>
+        </div>
+    </section>
+
+    <!-- External JS -->
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/food-data.js"></script>
+    <script src="js/food.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileThemeToggle = document.getElementById('theme-toggle-mobile');
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            if (mobileThemeToggle && themeToggleBtn) {
+                mobileThemeToggle.addEventListener('click', () => {
+                    themeToggleBtn.click();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
