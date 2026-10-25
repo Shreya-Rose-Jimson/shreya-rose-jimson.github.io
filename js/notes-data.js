@@ -57,5 +57,13 @@ const notesData = [
         description: "Subspaces",
         tags: ["RREF"],
         googleDriveUrl: "https://drive.google.com/file/d/10tHBgnFMQLOuABOeBDWlErOaWbfDw7ul/view?usp=sharing"
+    },
+    {
+        id: "10",
+        title: "Vector Spaces Working Procedures",
+        subject: "Linear Algebra",
+        description: "Column space, Null space, RREF, Span, Linear Independence, Solution to system of linear equations, Transformation matrices",
+        tags: ["Subspaces", "Recipe"],
+        googleDriveUrl: "https://drive.google.com/file/d/1i5jw0Hcbkmfdqb8Tqz73WEhniwiqhiyY/view?usp=sharing"
     }
 ];
