@@ -65,5 +65,13 @@ const notesData = [
         description: "Column space, Null space, RREF, Span, Linear Independence, Solution to system of linear equations, Transformation matrices",
         tags: ["Subspaces", "Recipe"],
         googleDriveUrl: "https://drive.google.com/file/d/1i5jw0Hcbkmfdqb8Tqz73WEhniwiqhiyY/view?usp=sharing"
+    },
+    {
+        id: "11",
+        title: "Linear Transformations and Orthogonality",
+        subject: "Linear Algebra",
+        description: "Orthogonal vectors & subspaces, Orthogonal bases, Cosines & projections onto lines, Projections & least squares, The Gram-Schmidt orthogonalization process, Introduction to eigen values & eigen vectors, Diagonalization of a matrix.",
+        tags: ["orthogonal", "eigenvector"],
+        googleDriveUrl: "https://drive.google.com/file/d/12jdrIScmqYvUtGobMcPDa31JJn_31UQF/view?usp=sharing"
     }
 ];
