@@ -41,5 +41,13 @@ const notesData = [
         description: "Sequencing static circuits, delay constraints, skew, SRAM, DRAM",
         tags: ["VLSI", "CMOS", "SRAM", "DELAY"],
         googleDriveUrl: "https://drive.google.com/file/d/1TzpuNiHJDdskT2-QmnbBnDxg0D2p7KXY/view?usp=sharing"
+    },
+    {
+        id: "8",
+        title: "Matrices and Gaussian Elimination",
+        subject: "Linear Algebra",
+        description: "Gaussian elimination",
+        tags: ["REF"],
+        googleDriveUrl: "https://drive.google.com/file/d/1EpO_o5BxUN-B7YHzLhADl-4RTnqRQ6RJ/view?usp=sharing"
     }
 ];
