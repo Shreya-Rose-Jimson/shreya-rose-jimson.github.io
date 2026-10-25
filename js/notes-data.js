@@ -49,5 +49,13 @@ const notesData = [
         description: "Gaussian elimination",
         tags: ["REF"],
         googleDriveUrl: "https://drive.google.com/file/d/1EpO_o5BxUN-B7YHzLhADl-4RTnqRQ6RJ/view?usp=sharing"
+    },
+    {
+        id: "9",
+        title: "Vector Spaces",
+        subject: "Linear Algebra",
+        description: "Subspaces",
+        tags: ["RREF"],
+        googleDriveUrl: "https://drive.google.com/file/d/10tHBgnFMQLOuABOeBDWlErOaWbfDw7ul/view?usp=sharing"
     }
 ];
